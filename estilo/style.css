@@ -24,13 +24,13 @@ section#login{
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #97bbd5f5;
     width: 350px;
     height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.405) ;
     transition: width 0.4s;
+    transform: translate(-50%, -50%);
 }
 div#imagem{
     
@@ -50,14 +50,34 @@ div#formulario{
 div#formulario a{
     font-size: 0.7em;
 }
-.campo{
+div.campo span{
+    background-color: #416d895b;
+    width: 25px;
+    height: 39px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+form div.campo input{
+    overflow: hidden;
+    background-color: #416d8922;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px 0px;
     
 }
 
-#iemail{
-
-    margin-top: 20%;
+form input.login {
+    padding-top: 4px;
+    padding-left: 3px;
+    width: 90%;
+    height: 34px;
+    background-color: #416d8900;
+    border: none;
 }
+
+
+
 form > input[type=submit]{
     
     display: block;
