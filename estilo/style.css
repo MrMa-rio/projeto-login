@@ -2,8 +2,8 @@
 
 :root{
 
-    --backcolor: #1c282e;
-    --backcolor2: #506676;
+    --backcolor: rgb(29, 41, 47);
+    --backcolor2: rgb(61, 77, 88);
     --color1:#446d88;
     --color2:#02111B;
     --color3:#596157;
@@ -24,6 +24,7 @@ html, body{
     height: 100vh;
     background-image: linear-gradient(to bottom,var(--backcolor) 80%,var(--backcolor2) 100%);
     background-repeat: no-repeat;
+    
     
 }
 main{
